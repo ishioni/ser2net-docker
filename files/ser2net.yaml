@@ -1,0 +1,6 @@
+connection: &con01
+  accepter: tcp, $PORT
+  enable: on
+  connector: serialdev,$DEVICE,$CONNOPTIONS
+  options:
+    kickolduser: true
